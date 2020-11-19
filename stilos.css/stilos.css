@@ -1,0 +1,300 @@
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #0f4c75;
+    z-index: 10;
+    height: 80px;
+    padding-top: 20px;
+    
+    
+    
+}
+
+nav a  {
+
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: Russo One;
+    padding: 20px;
+    margin-top: 40px;
+   
+
+}
+
+body {
+
+    font-family: Poppins;
+    font-size: 14px;
+    
+}
+
+.welcome-section {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #1b262c;
+    
+}
+
+h1 {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+   
+}
+
+
+h2 {
+    font-size: 40px;
+    color: white;
+    border-bottom: solid 1px white;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 2px;
+    margin-bottom: 15px;
+      
+}
+
+h3 {
+    font-size: 60px;
+    color: white;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 2px;
+    margin-bottom: 15px;
+    padding-top: 25px;
+      
+}
+
+
+
+.welcome-section p {
+    font-size: 30px;
+    color: #bbe1fa;
+    text-align: center;
+    
+}
+
+
+
+.project-tile {
+
+    background: #3282b8;
+    text-align: center;
+    padding: 20px 5px;
+}
+
+
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+    padding-top: 30px;
+}
+.project-grid > a > p {
+ 
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.project-grid > a {
+ 
+    color: white;
+    text-decoration: none;
+    
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: 300px;
+ 
+}
+
+
+.aboutme {
+
+    padding-top: 1px;
+    padding-bottom: 95px;
+    margin-top: 5px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+
+.project {
+    background: #1b262c;
+
+}
+
+.btn-show-all {
+    background: #1b262c;
+    color: white;
+    font-size: 22px;
+    padding: 10px;
+    font-family: russo one;
+}
+
+
+
+ a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.contact-section {
+    background: #1b262c;
+    width: 100%;
+    height: 50vh;
+}
+
+.list-contact {
+
+    text-align: center;
+
+    
+}
+
+.list-contact > a {
+    margin-right: 30px;
+    font-size: 22px;
+    font-family: Russo One;
+    font-weight: lighter;
+} 
+
+footer {
+
+    background: #1b262c;
+    border-top: solid 3px #3282b8;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+
+
+}
+
+footer > p {
+color: white;
+margin-right: 100px; 
+margin-left: 50px;
+font-size: 18px;
+
+}
+
+
+
+.project:hover {
+    background: #0f4c75;
+}
+
+.btn-show-all:hover {
+    background: #0f4c75;
+    color: white;
+    font-size: 23px;
+   
+}
+
+.project-title:hover {
+
+    font-size: 22px;
+    
+}
+
+.btn-contact:hover {
+    color: #3282b8;
+    font-size: 23px;
+}
+
+@media (max-width: 650px) {
+
+    .welcome-section {
+
+        height:70vh;
+        padding-top: 50px;
+    }
+
+    h2 {
+        font-size: 190%;
+        width: 90%;
+        margin: auto;
+        padding-top: 20px;
+        padding-bottom: auto;
+
+        
+        
+    }
+
+    h3 {
+        font-size: 200%;
+        width: 100%;
+        margin: auto;
+        
+        
+    }
+    .list-contact {
+        display: flex;
+        
+       
+    }
+
+    .list-contact > a {
+        width: 100%;
+        margin: auto;
+        
+       
+    }
+
+    p {
+        color: white;
+        text-align: center; 
+       }
+
+       .contact-section {
+
+        height: 35vh;
+
+       }
+
+       footer > p {
+        
+       width: 100%;
+        margin: auto;
+        font-size: 12px;
+        
+        }
+
+
+}
+
+
+
+
+
